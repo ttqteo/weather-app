@@ -12,17 +12,18 @@ html {
 .container {
   color: white;
   background: linear-gradient(145deg, #2193b0, #6dd5ed);
-  width: 400px;
-  margin: 50px auto;
+  max-width: 400px;
+  margin: 0 auto;
   border-radius: 5px;
   font-size: 1.4rem;
 }
 
 .search-bar {
   position: relative;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding-top: 20px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +43,7 @@ html {
   color: white;
   height: 20px;
   padding: 3px 3px 3px 20px;
+  font-size: 1.6rem;
 }
 
 .search-input::placeholder {
@@ -53,7 +55,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  height: 60vh;
   padding: 80px 50px;
 }
 
